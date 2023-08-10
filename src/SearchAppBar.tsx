@@ -64,7 +64,7 @@ export default function SearchAppBar() {
     useComponentVisible(true);
 
   const handleSearchIconClick = () => {
-    setShowSearchInput(!showSearchInput);
+    setShowSearchInput(true);
   };
 
   return (
@@ -108,7 +108,7 @@ export default function SearchAppBar() {
           <Button
             className="searchButton"
             variant="text"
-            onClick={() => setIsComponentVisible(!isComponentVisible)}
+            onClick={() => setIsComponentVisible(true)}
           >
             Click
           </Button>
